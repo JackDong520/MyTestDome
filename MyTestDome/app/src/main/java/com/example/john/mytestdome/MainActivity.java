@@ -26,6 +26,14 @@ public class MainActivity extends AppCompatActivity  {
                 MainActivity.this.startActivity(intent);
             }
         });
+
+        findViewById(R.id.android_notes).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this , com.example.john.mytestdome.AndriodNotes.MainActivity.class);
+                MainActivity.this.startActivity(intent);
+            }
+        });
     }
 
 }

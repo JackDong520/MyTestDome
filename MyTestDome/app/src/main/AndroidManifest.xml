@@ -20,6 +20,8 @@
 
         </activity>
         <activity android:name=".Imooc_Activity.MainActivity"></activity>
+        <activity android:name=".AndriodNotes.Capter_05.MainActivity"></activity>
+        <activity android:name=".AndriodNotes.MainActivity"></activity>
     </application>
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 

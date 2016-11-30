@@ -21,6 +21,12 @@
         android:text="Imooc_Activity"
         android:id="@+id/imooc_Activity"
         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android_notes"
+        android:id="@+id/android_notes"
+        />
 
 
 </LinearLayout>
