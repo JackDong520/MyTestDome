@@ -38,6 +38,16 @@ public class MainActivity extends Activity
                 intent.setType("vnd.android.cursor.item/phone");
                 // 启动Activity，并希望获取该Activity的结果
                 startActivityForResult(intent, PICK_CONTACT);
+
+            }
+        });
+        findViewById(R.id.Return_Home).setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_MAIN);
+                intent.addCategory(Intent.CATEGORY_HOME);
+                startActivity(intent);
             }
         });
     }

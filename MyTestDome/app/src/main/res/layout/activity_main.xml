@@ -9,24 +9,40 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.john.mytestdome.MainActivity">
 
-    <Button
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Uber"
-        android:id="@+id/uber"
-        />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Imooc_Activity"
-        android:id="@+id/imooc_Activity"
-        />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="android_notes"
-        android:id="@+id/android_notes"
-        />
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Uber"
+            android:id="@+id/uber"
+            android:singleLine="true"
+            />
+
+        <Button
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Imooc_Activity"
+            android:id="@+id/imooc_Activity"
+            android:singleLine="true"
+            />
+        <Button
+            android:layout_weight="1.0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="android_notes"
+            android:id="@+id/android_notes"
+            android:singleLine="true"
+            />
+    </LinearLayout>
+
+
 
 
 </LinearLayout>
